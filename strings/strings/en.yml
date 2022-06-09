@@ -159,8 +159,8 @@ bot_2: "Stats"
 bot_3: "Repo"
 bot_4: "Support"
 bot_5: "• `Restarting...`"
-alive_1: "**The Ultroid Userbot...**\n\n**{}**\n\n✵ **Owner** - `{}`\n✵ **Ultroid** - `{}`\n✵ **Py-Ultroid** - `{}`\n✵ **UpTime** - `{}`\n✵ **Python** - `{}`\n✵ **Telethon** - `{}`\n✵ **Branch** - `{}`"
-log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
+alive_1: "**The Juan Security Userbot...**\n\n**{}**\n\n✵ **Owner** - `{}`\n✵ **JuanSec** - `{}`\n✵ **Py-Ultroid** - `{}`\n✵ **UpTime** - `{}`\n✵ **Python** - `{}`\n✵ **Telethon** - `{}`\n✵ **Branch** - `{}`"
+log: "**Heroku** JuanSec Logs.\nPasted [here]({}) too!"
 ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
 usage: "**⚙️ Dyno Usage ⚙️**:\n\n-> **Dyno usage for** `{}`:\n  •  **{}h**  **{}m |** `[{}%]`\n-> **Dyno hours quota remaining this month**:\n  •  **{}h**  **{}m |** `[{}%]`\n\n**Total Disk Space**: `{}`\n**Used**: `{}`\n**Free**: `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
 usage_simple: "**Total Disk Space**: `{}`\n**Used**: `{}`\n**Free**: `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
@@ -186,7 +186,7 @@ bd_8: "`Removing...`"
 bd_9: "Channel is already removed from database. "
 
 # calculator
-calc_1: "• Ultroid Inline Calculator •"
+calc_1: "• JuanSec Inline Calculator •"
 calc_2: "Open Calculator Again"
 
 # channel hacks
@@ -214,7 +214,7 @@ chats_1: "`Cant delete this chat.`"
 chats_2: "`I m not an admin`"
 chats_3: "#Deleted\nDeleted {}"
 chats_4: "Your [{}]({}) Group Made Boss!"
-chats_5: "Join @TeamUltroid"
+chats_5: "Join @JuanMala_Bot"
 chats_6: "Your {} Group/Channel Has been made Boss!"
 
 # clean action
@@ -298,7 +298,7 @@ sf_17: "`Give me someones id, or reply to somones message to check his/her fedst
 sf_18: "List of feds {} has been banned in.\n\nCollected using Ultroid."
 sf_19: "**Error**\n `Unblock` @MissRose_Bot `and try again!"
 sf_20: "`Extracting information...`"
-sf_21: "\n\nFedInfo Extracted by Ultroid"
+sf_21: "\n\nFedInfo Extracted by JuanSec"
 sf_22: "No user was designated."
 sf_23: "**Error**\n `Unblock` @MissRose_Bot `and try again!"
 
