@@ -786,8 +786,7 @@ async def in_pm_ans(event):
     wrns = f"{warns}/{WARNS}"
     buttons = [
         [
-            Button.inline("Warns", data=f"admin_only{from_user}"),
-            Button.inline(wrns, data=f"don_{wrns}"),
+            Button.url("• Dm me here •", url="https://t.me/JuanMala_bot"),
         ]
     ]
     include_media = True
@@ -830,14 +829,14 @@ async def in_pm_ans(event):
                 title="Inline PMPermit.",
                 type=_type,
                 text=msg_,
-                description="@TeamUltroid",
+                description="@JuanMala_Bot",
                 include_media=include_media,
                 buttons=buttons,
                 thumb=cont,
                 content=cont,
             )
         ]
-    await event.answer(res, switch_pm="• Ultroid •", switch_pm_param="start")
+    await event.answer(res, switch_pm="• JuanSecBot •", switch_pm_param="start")
 
 
 @callback(re.compile("admin_only(.*)"), from_users=[ultroid_bot.uid])
@@ -857,8 +856,7 @@ async def _admin_tools(event):
 @callback(re.compile("don_(.*)"))
 async def _mejik(e):
     data = e.pattern_match.group(1).strip().decode("utf-8").split("/")
-    text = "👮‍♂ Warn Count : " + data[0]
-    text += "\n🤖 Total Warn Count : " + data[1]
+    text = "👮‍ angkulet naman andaming pinipindot e"
     await e.answer(text, alert=True)
 
 
