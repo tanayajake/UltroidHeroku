@@ -14,10 +14,8 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-• **ULTROID USERBOT** •\n
-• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)
-• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)
-• Support - @UltroidSupport
+• **JuanSecuBOT** •\n
+• Support - @JuanMala_Bot
 """
 
 RP_BUTTONS = [
@@ -25,10 +23,10 @@ RP_BUTTONS = [
         Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
         Button.url("Addons", "https://github.com/TeamUltroid/UltroidAddons"),
     ],
-    [Button.url("Support Group", "t.me/ultroidsupport")],
+    [Button.url("Support Group", "t.me/JuanMala_Bot")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Ultroid Userbot!**
+ULTSTRING = """🎇 **Thanks for Deploying JuanSec Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -59,7 +57,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/54a917cc9dbb94733ea5f.jpg",
+        file="https://telegra.ph/file/0aa548fe751ac2cea67b8.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
