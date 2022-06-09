@@ -95,14 +95,14 @@ buttons = [
 
 # Will move to strings
 alive_txt = """
-The Ultroid Userbot
+The Juan Security bot
 
   ◍ Version - {}
   ◍ Py-Ultroid - {}
   ◍ Telethon - {}
 """
 
-in_alive = "{}\n\n🌀 <b>Ultroid Version -><b> <code>{}</code>\n🌀 <b>PyUltroid -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b> [ {} ]\n\n• <b>Join @TheUltroid</b>"
+in_alive = "{}\n\n🌀 <b>Juan Security Version -><b> <code>{}</code>\n🌀 <b>PyJuanSecu -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b> [ {} ]\n\n• <b>Join @TheJuanSec</b>"
 
 
 @callback("alive")
@@ -308,7 +308,7 @@ async def inline_alive(ult):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@TheUltroid",
+                        description="@JuanMala_Bot",
                         parse_mode="html",
                         buttons=buttons,
                     )
