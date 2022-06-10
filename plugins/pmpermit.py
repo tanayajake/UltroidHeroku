@@ -836,7 +836,7 @@ async def in_pm_ans(event):
                 content=cont,
             )
         ]
-    await event.answer(res, switch_pm="• JuanSecBot •", switch_pm_param="start")
+    await event.answer(res, switch_pm="• UnoSecBot •", switch_pm_param="start")
 
 
 @callback(re.compile("admin_only(.*)"), from_users=[ultroid_bot.uid])
