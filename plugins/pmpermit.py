@@ -786,7 +786,7 @@ async def in_pm_ans(event):
     wrns = f"{warns}/{WARNS}"
     buttons = [
         [
-            Button.url("• Dm me here •", url="https://t.me/JuanMala_bot"),
+            Button.url("• Look me here •", url="https://t.me/Hangawtss"),
         ]
     ]
     include_media = True
@@ -829,7 +829,7 @@ async def in_pm_ans(event):
                 title="Inline PMPermit.",
                 type=_type,
                 text=msg_,
-                description="@JuanMala_Bot",
+                description="@Hangawtss",
                 include_media=include_media,
                 buttons=buttons,
                 thumb=cont,
@@ -856,7 +856,7 @@ async def _admin_tools(event):
 @callback(re.compile("don_(.*)"))
 async def _mejik(e):
     data = e.pattern_match.group(1).strip().decode("utf-8").split("/")
-    text = "👮‍ angkulet naman andaming pinipindot e"
+    text = "👮‍ angteluk naman andaming pinipindot e"
     await e.answer(text, alert=True)
 
 
